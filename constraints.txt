@@ -1,0 +1,10 @@
+Depsite of models good performance on classifying hand written number there
+are some protocols, good to follow to prevent any bias.
+1)As i used Mnist data as a source for model training, the model is limited
+to how to image color scheme is selected i.e the image should have a black
+background on which text is drawn with white marker.
+2)Due to the fact that Mnist data images are 28x28 pixels images threfore
+it's mendatory for me to convert the actual dimensions of image to that of
+training data therefore it is advised that marker position and 
+marker's width should look like that of images in 'testImages' directory.
+3)Happy coding!
